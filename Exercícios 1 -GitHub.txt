@@ -1,0 +1,17 @@
+1)a)git init - O propósito é iniciar um repositório, porém a partir de um diretório com dados.
+b)git clone - Tem o mesmo propósito do git init, porém se inicia a partir de um projeto já existente em um repositório remoto.
+c)git branch - Tem o propósito de gerenciar os branches, assim listando todos os branches do repostitório.
+d)git checkout - Tem proprósito semelhante ao git branch, mas é utilizada para migrar para uma branch especifica, exemplo do professor: git checkout develop.
+e)git fetch - O propósito é atualizar o repositório local, assim esse comando busca alterações mais recentes da branch atual(nao especificand) armazenadas no repositório remoto.
+f)git pull - O prósito também é de atualizar o repositório local, porém o git pull pega as alterações do  repositório remoto e já merge no repositório local, por isso é importante
+ter cuidado ao utilizar o git pull para ter nenhum conflito na hora de incorporá-las.
+g)git add - Tem o propósito de adicionar mudanças no diretório local, resumindo, quando o desenvolver realizar uma mudança no diretório, essa mudança só vai ser atualizada quando 
+adicionar o git add
+h)git commit - Tem o propósito de confirmar/ comprometer (commit) as mudanças, esse comando abirá o editor de texto para que o desenvolvedor digite a mensagem sobre atualizando
+os outros ou até ele mesmo sobre as mudanças que ele fez
+i)git push - O comando git push tem o proposito de transferir o commit que o desenvolvedor escreveupara um repositório remoto.
+
+2)  O propósito do git pull e do git fetch são atualizar o repositorio local, porém os resultados são diferentes no caso dp git fetch, esse comando pega as alterações mais 
+recentes da branch que o desenvolvedor está trabalhando no repositótio remoto, mas não integra no repositório local, assim não tendo risco de destuir e bagunçar nada, já o 
+git pull pega as alterações do repositório remoto e merge no repositório local, tendo risco de ocorrer alguns conflitos caso o desenvolvedor não tenha certeza das atualizações 
+que queira fazer e depois querer mudar.
