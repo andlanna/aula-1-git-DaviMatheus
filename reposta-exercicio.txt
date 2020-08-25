@@ -1,0 +1,18 @@
+1)a)git init- o propósito é iniciar um repositório, porém a partir de um diretório com dados
+b)git clone - Tem o mesmo propósito do git init, porém se inicia a partir de um projeto já existente em um repositório remoto
+c)git branch - Tem o propósito de gerenciar os branches, assim listando todos os branches do repositório.
+d)git checkout - Tem propósito semelhante ao git branch, mas é utilizada para migrar para uma branch especifica.
+e)git fetch - O propósito é atualizar o repositório local, assim esse comando busca alterções mais recentes da branch atual(não
+especificando) armazenadas no repositório remoto
+f)git pull - O propósito também é de atualizar o repositório local, porém o git pull pega as alterações do repositório remoto e 
+já merge no repositório local, por isso é importante ter cuidado ao utilizar o git pull para ter nenhum conflito na hora de incorpora-las
+g)git add - Tem o propósito de adicionar mudanças no diretório local, resumindo, quando o desenvolvedor realizar uma mudança no diretório
+essa mudança só vai ser atualizada quando adicionar o git add
+h)git commit - Tem o propósito de confirmar as mudanças, esse comando abrirá o editor de texto para que o desenvolvedor digite a mensagem
+atualizando os outros ou até ele mesmo sobre as mudanças que ele fez
+i)git push - O comando git push tem o propostito de transferir o commit que o desenvolver escreveu para um repositório remoto
+
+2) O propósito do git pull e do git fetch são atualizar o repositório local, porém os resultados são diferentes, no caso do git fetch,esse
+comando pega as alterações mais recentes da branch que o desenvolvedor está trabalhando no repositório remoto, mas não integra no repositório local, assim não tendo risco de destruir e bagunçar nada, já o git pull pega as alterações do repositório remoto e merge no repositório local, tendo risco de ocorrer alguns conflitos caso o desnvolvedor não tenha certeza das atualizacões que queira fazer e depois queira 
+mudar.
+
